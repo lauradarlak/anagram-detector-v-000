@@ -13,9 +13,8 @@ end
 def match(anagram_a)
   anagram_a.each do |anagram|
     anagram = anagram.split("")
-    
-  end
-  
+    anagram.sort
+    binding.pry
 end
 
 end
