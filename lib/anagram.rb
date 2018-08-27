@@ -15,5 +15,6 @@ def match(anagram_a)
     word.split("")
   end
   binding.pry
+end
 
 end
