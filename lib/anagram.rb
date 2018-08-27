@@ -15,7 +15,7 @@ def match(anagram_a)
   anagram_a.each do |anagram|
     anagram = anagram.split("")
     if anagram.sort == @word.split("").sort 
-      match_a << anagram
+      match_a << anagram.join
     else match_a
     end
   end
