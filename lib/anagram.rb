@@ -17,9 +17,9 @@ def match(anagram_a)
     if anagram.sort == @word.sort 
       match_a << anagram
     else match_a
-    
-    binding.pry
+    end
   end
+  match_a
 end
 
 end
