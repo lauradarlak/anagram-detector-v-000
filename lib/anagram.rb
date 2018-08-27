@@ -11,9 +11,12 @@ def initialize(word)
 end
 
 def match(anagram_a)
+  match_a = []
   anagram_a.each do |anagram|
     anagram = anagram.split("")
-    anagram = anagram.sort {|a,b| a <=> b}
+    if anagram.sort == @word.sort 
+      match_a << anagram
+    else match_a
     
     binding.pry
   end
