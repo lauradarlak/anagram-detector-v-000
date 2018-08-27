@@ -15,6 +15,7 @@ def match(anagram_a)
     anagram = anagram.split("")
     anagram.sort
     binding.pry
+  end
 end
 
 end
