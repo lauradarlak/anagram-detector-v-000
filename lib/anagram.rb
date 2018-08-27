@@ -12,7 +12,7 @@ end
 
 def match(anagram_a)
   anagram_a.each do |word|
-    word.split("")
+    word = word.split("")
   end
   binding.pry
 end
